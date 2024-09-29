@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2527420282620021974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2527420282620021972}
+  - component: {fileID: 2527420282620021973}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2527420282620021972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2527420282620021974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.74139, y: -1.1475885, z: 93.91028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2527420282620021973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2527420282620021974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058a60978fdc84493a7f5f9e81471aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundDatas:
+  - name: loop1_dia
+    audioClip: {fileID: 8300000, guid: 2f3b46ddbfba1496d9c9fc78d7ba7555, type: 3}
+    loopSw: 0
+  - name: loop2_dia
+    audioClip: {fileID: 8300000, guid: d4eb3a1821f5e40479fc045fe67f5ed5, type: 3}
+    loopSw: 0
+  - name: shoot_dia
+    audioClip: {fileID: 8300000, guid: 346844610b8ba4b9cb3ddd0d962776b3, type: 3}
+    loopSw: 0
+  - name: loop1_vo
+    audioClip: {fileID: 8300000, guid: 0051f71dd22fc493b8bdc0558281cef4, type: 3}
+    loopSw: 1
+  - name: loop2_vo
+    audioClip: {fileID: 8300000, guid: 25d315ff60d8b455e8fa3a564aa96ddd, type: 3}
+    loopSw: 1
+  - name: idle
+    audioClip: {fileID: 8300000, guid: cba2d275c7b504afa871b868cc46d80e, type: 3}
+    loopSw: 1
